@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "szfwnlxm",
+    "password": "nSdbb_ByAUvAfQ6-O-VBpDvL02-78qsu",
+    "database": "szfwnlxm",
+    "host": "drona.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "szfwnlxm",
+    "password": "nSdbb_ByAUvAfQ6-O-VBpDvL02-78qsu",
+    "database": "szfwnlxm",
+    "host": "drona.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "szfwnlxm",
+    "password": "nSdbb_ByAUvAfQ6-O-VBpDvL02-78qsu",
+    "database": "szfwnlxm",
+    "host": "drona.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}
