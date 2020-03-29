@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ("../partials/head.ejs") %>
+</head>
+
+<body class="container">
+    <header>
+        <% if (confirmed === undefined) { %>
+        <%- include ("../partials/unAuth.ejs") %>
+        <% } else { %>
+        <%- include ("../partials/authHeader.ejs") %>
+        <% } %>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <h1>Login</h1>
+            <div class="login">
+                <form class="fields" method="POST" action="/login">
+                    <input type="text" name="email" placeholder="email" />
+                    <input type="password" name="password" placeholder="password" />
+                    <button>Submit</button>
+                </form>
+                <span class="small-text">No account? Register <a href="/login">here</a></span>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
