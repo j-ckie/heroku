@@ -1,7 +1,7 @@
 # Heroku Demo
 ## For the Jan 2020 DigitalCrafts Cohort
 
-Try out the steps below with this repo! Make sure you add a *.env* file with the contents: `SESSION_SECRET=cat`
+Try out the steps below with this repo! Make sure you add a *.env* file to the root folder, with the contents: `SESSION_SECRET=cat`
 
 1. Install the Heroku CLI globally (only needs to be done once) `npm i heroku -g`
 2. Setup heroku app here: https://dashboard.heroku.com/
