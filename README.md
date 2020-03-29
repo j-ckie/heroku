@@ -2,7 +2,7 @@
 ## For the Jan 2020 DigitalCrafts Cohort
 
 1. Install the Heroku CLI globally (only needs to be done once) `npm i heroku -g`
-2. Setup heroku app 
+2. Setup heroku app here: https://dashboard.heroku.com/
     <br />
     a. Create New App
     <br /> 
