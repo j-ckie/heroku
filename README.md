@@ -1,14 +1,23 @@
 # Heroku Demo
 ## For the Jan 2020 DigitalCrafts Cohort
 
-1. install the Heroku CLI globally (only needs to be done once) `npm i heroku -g`
-2. setup heroku app 
-    a. Create New App 
+1. Install the Heroku CLI globally (only needs to be done once) `npm i heroku -g`
+2. Setup heroku app 
+    <br />
+    a. Create New App
+    <br /> 
     b. App name
 3. `heroku login`
 4. `heroku git:remote -a <HEROKU_APP_NAME>`
-5. Add Procfile with web:node index.js in contents
-6. In *package.json* file, add `"start": "node index.js"` to `"scripts"`
+5. `touch Procfile` and add ```web:node index.js``` to file
+6. In *package.json* file, add ```"start": "node index.js"``` to ```"scripts"```
+    <br />
+    ```JavaScript
+    "scripts": {
+        "start": "node index.js"
+    }
+    ```
+    <br />
 7. Change port on *index.js* to `const PORT = process.env.PORT || 8080;`
 8. Commit like normal
 9. Make sure local master branch is up to date - if not, `git pull origin master`
